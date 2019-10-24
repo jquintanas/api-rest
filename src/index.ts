@@ -15,8 +15,6 @@ class Server {
 
   config():void {
     this.app.set("port", process.env.PORT || 3000);
-    this.app.set('view engine', 'ejs');
-    this.app.set('views', path.join(__dirname, 'views'));
     //static files
     this.app.use(express.static(path.join(__dirname, '/public')));
     this.app.use(morgan("dev"));
@@ -32,8 +30,6 @@ class Server {
   start(): void {
     this.app.listen(this.app.get("port"), () => {
       console.log("server on port: ", this.app.get("port"));
-      
-      //db.sequelize.sync();
     });
   }
 }
