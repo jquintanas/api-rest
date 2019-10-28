@@ -4,7 +4,7 @@ const bodyParser =  require("body-parser");
 const path = require("path");
 //impots de rutas personalizadas
 import appRouter from "./route/appRouter";
-
+//let db = require('./../models');
 
 class Server {
   public app:Application;
@@ -30,6 +30,7 @@ class Server {
   start(): void {
     this.app.listen(this.app.get("port"), () => {
       console.log("server on port: ", this.app.get("port"));
+      //db.sequelize.sync();
     });
   }
 }

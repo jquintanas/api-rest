@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "apidaw",
+    "password": "KTUV7OZKCBIy5pf2",
+    "database": "testApiDAW",
+    "host": "localhost",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "ukmwer6lq86zwzdk",
+    "password": "xeuREDoFS4ZkaNQGxa56",
+    "database": "bsjlfhcxxulnwv3lrftj",
+    "host": "bsjlfhcxxulnwv3lrftj-mysql.services.clever-cloud.com",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  }
+}

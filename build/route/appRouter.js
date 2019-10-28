@@ -14,7 +14,11 @@ class GamesRoutes {
         //this.router.[get | post | put | delete]
         this.router.get("/", appController_1.default.index);
         this.router.post("/", appController_1.default.json);
+        this.router.get("/getData", appController_1.default.getData);
+        this.router.post("/postData", appController_1.default.postData);
+        this.router.delete("/deleteData/:id", appController_1.default.deleteData);
+        this.router.put("/updateData/:id", appController_1.default.updateData);
     }
 }
-const gamesRoutes = new GamesRoutes();
-exports.default = gamesRoutes.router;
+const appRoutes = new GamesRoutes();
+exports.default = appRoutes.router;

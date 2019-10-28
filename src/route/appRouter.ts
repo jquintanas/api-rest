@@ -10,7 +10,11 @@ class GamesRoutes {
     //this.router.[get | post | put | delete]
     this.router.get("/",appController.index);
     this.router.post("/", appController.json);
+    this.router.get("/getData", appController.getData);
+    this.router.post("/postData",appController.postData);
+    this.router.delete("/deleteData/:id", appController.deleteData);
+    this.router.put("/updateData/:id", appController.updateData);
   }
 }
-const gamesRoutes = new GamesRoutes();
-export default gamesRoutes.router;
+const appRoutes = new GamesRoutes();
+export default appRoutes.router;
