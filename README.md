@@ -18,13 +18,13 @@ Autor: Jonathan Quintana
 - Delete - /deleteData/id => Elimina un registro.
    - Datos requeridos: id que es la matricula del estudiante.
 
-### Installation
+### Instalación
 La Rest-Api requiere [Node.js](https://nodejs.org/) para ejecutarse.
-Instale las dependencias y las dependencias de desarrollo e inicie el servidor.
+Instale las dependencias de desarrollo y de producción e inicie el servidor.
 
 ```sh
 $ cd api-rest
-$ npm install -d
+$ npm install
 ```
 ### Extras
 Api-Rest requiere los siguientes complementos.
