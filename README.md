@@ -1,10 +1,15 @@
 # Api-Rest – Tutorial DAW 
 
 > La presente api fue diseñada con el objetivo de mostrar cómo realizar una configuración sencilla de un servidor en Node Js y Express junto con un ORM “Sequelize” para la realización de un Api-Rest de prueba.
+
 [Link del api desplegada](https://api-test-daw.herokuapp.com)
+
 Autor: Jonathan Quintana
+
 [Repositorio Sequelize](https://github.com/sequelize/sequelize)
+
 [Repositorio Sequelize CLI](https://gist.github.com/vapurrmaid/a111bf3fc0224751cb2f76532aac2465)
+
 [Tutorial - PDF - Construción paso a paso del api](https://drive.google.com/file/d/1tRdwe4MyKbKdK7PEgvDaIzt6msHExxyu/view?usp=sharing)
 
 
